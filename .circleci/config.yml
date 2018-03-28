@@ -43,4 +43,4 @@ jobs:
           fingerprints:
             - "e7:d6:c3:a2:56:9f:d8:ad:c3:ba:32:21:b0:f4:60:3e"
       - deploy:
-          command: php deployer.phar deploy -vvv
+          command: php deployer.phar deploy -vvv -n
