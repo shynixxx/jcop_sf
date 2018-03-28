@@ -41,6 +41,6 @@ jobs:
             php deployer.phar --version
       - add_ssh_keys:
           fingerprints:
-            - "97:de:66:0a:23:42:c4:44:3c:76:cb:e2:cc:87:17:bf"
+            - "e7:d6:c3:a2:56:9f:d8:ad:c3:ba:32:21:b0:f4:60:3e"
       - deploy:
           command: php deployer.phar deploy -vvv
